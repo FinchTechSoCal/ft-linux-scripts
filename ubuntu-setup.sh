@@ -27,8 +27,8 @@ apt upgrade -y
 #install packages
 #apt install -y open-vm-tools # for VMware Only
 apt install -y qemu-guest-agent
-apt install -y apt-transport-https ca-certificates curl gnupg-agent software-properties-common
-apt install -y haveged ntp nfs-common net-tools cifs-utils htop parted tmux p7zip-full
+apt install -y apt-transport-https ca-certificates curl wget git gnupg-agent software-properties-common
+apt install -y haveged ntp nfs-common net-tools cifs-utils htop parted tmux p7zip-full neofetch
 
 
 #set timezone
